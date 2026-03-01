@@ -24,7 +24,7 @@ Browser (HiAnime) ──HTTP POST──▶ Python Server ──IPC──▶ Disc
 - **Python 3.9+**
 - **Discord Desktop** (must be running)
 - **Firefox** or **Chrome** with [Tampermonkey](https://www.tampermonkey.net/) extension
-- A Discord Application (already created — ID: `1477729710803910802`)
+- A Discord Application
 
 ---
 
@@ -70,7 +70,7 @@ You should see:
 ║     🎌  HiAnime Discord RPC Server  🎌      ║
 ╠══════════════════════════════════════════════╣
 ║  Server   ➜  http://localhost:5555          ║
-║  App ID   ➜  1477729710803910802            ║
+║  App ID   ➜              ║
 ╚══════════════════════════════════════════════╝
 
   ✅  Connected to Discord RPC
@@ -146,3 +146,4 @@ Hianime Discord/
 - All communication happens **locally** (`localhost:5555`) — no data is sent to external servers
 - Only the anime title, episode, and poster URL are shared with Discord
 - You can stop sharing at any time by closing the Python server or disabling the userscript
+
