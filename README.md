@@ -33,6 +33,8 @@ Browser (HiAnime) ──HTTP POST──▶ Python Server ──IPC──▶ Disc
 ### 1. Install Python Dependencies
 
 ```bash
+git clone https://github.com/SilverHazer/HiAnime-Discord-Rich-Presence.git
+cd HiAnime-Discord-Rich-Presence
 pip install -r requirements.txt
 ```
 
@@ -152,6 +154,7 @@ Hianime Discord/
 - All communication happens **locally** (`localhost:5555`) — no data is sent to external servers
 - Only the anime title, episode, and poster URL are shared with Discord
 - You can stop sharing at any time by closing the Python server or disabling the userscript
+
 
 
 
