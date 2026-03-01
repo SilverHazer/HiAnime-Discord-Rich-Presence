@@ -33,7 +33,6 @@ Browser (HiAnime) ──HTTP POST──▶ Python Server ──IPC──▶ Disc
 ### 1. Install Python Dependencies
 
 ```bash
-cd "d:\Workspace\Hianime Discord"
 pip install -r requirements.txt
 ```
 
@@ -146,4 +145,5 @@ Hianime Discord/
 - All communication happens **locally** (`localhost:5555`) — no data is sent to external servers
 - Only the anime title, episode, and poster URL are shared with Discord
 - You can stop sharing at any time by closing the Python server or disabling the userscript
+
 
