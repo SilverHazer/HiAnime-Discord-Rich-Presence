@@ -36,13 +36,20 @@ Browser (HiAnime) ──HTTP POST──▶ Python Server ──IPC──▶ Disc
 pip install -r requirements.txt
 ```
 
+### 2. Create a new Discord application
+
+1. Go to [Discord Developer Portal](https://discord.com/developers/applications)
+2. Click on the New Application button
+3. Copy the Application ID 
+4. Open / edit 'hianime_rpc.py' and enter the copied Application ID on line 26 (CLIENT_ID = "CLIENT_ID_HERE") 
+5. Save and exit
+
+
 ### 2. Install the Tampermonkey Userscript
 
-1. Open Tampermonkey in your browser → **Create a new script**
-2. Delete the template content
-3. Copy-paste the entire contents of `hianime_discord_rpc.user.js`
-4. Press **Ctrl+S** to save
+1. Click on `hianime_discord_rpc.user.js` and install or copy/paste the contents as a new Tampermonkey Userscript.
 5. Make sure the script is **enabled** ✅
+
 
 ### 3. (Optional) Upload Fallback Assets to Discord
 
@@ -145,5 +152,6 @@ Hianime Discord/
 - All communication happens **locally** (`localhost:5555`) — no data is sent to external servers
 - Only the anime title, episode, and poster URL are shared with Discord
 - You can stop sharing at any time by closing the Python server or disabling the userscript
+
 
 
