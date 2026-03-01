@@ -2,7 +2,7 @@
 
 Show your currently-watching anime from **hianime.to / hianime.do** as Discord Rich Presence — complete with anime poster, episode number, and live playback progress.
 
-![Discord Rich Presence Example](https://i.imgur.com/placeholder.png)
+![Discord Rich Presence Example](https://i.imgur.com/zADsa5S.jpeg)
 
 ---
 
@@ -152,6 +152,7 @@ Hianime Discord/
 - All communication happens **locally** (`localhost:5555`) — no data is sent to external servers
 - Only the anime title, episode, and poster URL are shared with Discord
 - You can stop sharing at any time by closing the Python server or disabling the userscript
+
 
 
 
