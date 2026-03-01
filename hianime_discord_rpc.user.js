@@ -3,7 +3,9 @@
 // @namespace    https://hianime.to/
 // @version      3.0.0
 // @description  Show your currently watching anime on Discord Rich Presence
-// @author       HiAnime RPC
+// @author       Silverhazer
+// @homepageURL  https://github.com/SilverHazer/HiAnime-Discord-Rich-Presence
+// @supportURL   https://github.com/SilverHazer/HiAnime-Discord-Rich-Presence/issues
 // @match        *://hianime.to/watch/*
 // @match        *://hianime.do/watch/*
 // @match        *://hianimez.to/watch/*
@@ -375,3 +377,4 @@
     }
 
 })();
+
